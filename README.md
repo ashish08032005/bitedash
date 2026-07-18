@@ -27,7 +27,7 @@ Here is what I used to build this project and why:
 Here is a breakdown of what I built and how it works under the hood:
 
 *   **Simulated Authentication (Login/Signup)**: 
-    I created an interactive Login/Signup form. It saves new accounts to the browser's local storage. If you are logged out, the app protects the **Checkout** and **Profile** pages by showing a lock screen and prompting the login modal. You can log in using the demo account: `suvidha@example.com` / `123456`.
+    I created an interactive Login/Signup form. It saves new accounts to the browser's local storage. If you are logged out, the app protects the **Checkout** and **Profile** pages by showing a lock screen and prompting the login modal. You can log in using the demo account: `ashish@gmail.com` / `123456`.
 *   **Location-Based Delivery Zones**:
     There is a location selector next to the logo (Noida, Delhi, Gurugram, Mumbai). Since different restaurants deliver to different areas, changing the location dynamically updates the available brands and dishes on the home feed.
 *   **Item Customizer Modal**:

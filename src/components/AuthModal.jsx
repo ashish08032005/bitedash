@@ -114,7 +114,7 @@ export default function AuthModal() {
               <Mail className="absolute left-3 top-3 h-4 w-4 text-slate-500" />
               <input
                 type="email"
-                placeholder="suvidha@example.com"
+                placeholder="ashish@gmail.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full rounded-xl border border-slate-800 bg-slate-950 py-2.5 pl-9 pr-4 text-sm text-slate-100 placeholder:text-slate-500 outline-none focus:border-orange-500 hover:border-slate-700 transition"
@@ -160,7 +160,7 @@ export default function AuthModal() {
             <div>
               <span className="font-semibold text-slate-300">Demo Login Details:</span>
               <p className="mt-0.5 text-[11px] text-slate-505 leading-normal">
-                Email: <code className="text-slate-300">suvidha@example.com</code><br/>
+                Email: <code className="text-slate-300">ashish@gmail.com</code><br/>
                 Password: <code className="text-slate-300">123456</code>
               </p>
             </div>

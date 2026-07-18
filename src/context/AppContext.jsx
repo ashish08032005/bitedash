@@ -141,8 +141,8 @@ export const AppProvider = ({ children }) => {
     }
     
     // Default demo user fallback
-    if (email === 'suvidha@example.com' && password === '123456') {
-      const demoUser = { name: 'Suvidha', email: 'suvidha@example.com', phone: '+91 98765-43210' };
+    if (email === 'ashish@gmail.com' && password === '123456') {
+      const demoUser = { name: 'Ashish Kumar Yadav', email: 'ashish@gmail.com', phone: '+91 98765-43210' };
       setCurrentUser(demoUser);
       setIsAuthModalOpen(false);
       return { success: true };
